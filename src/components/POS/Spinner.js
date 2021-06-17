@@ -11,7 +11,7 @@ margin-bottom:25px;
 
 const Spinner = () => {
     return (
-        <div className="spinner col-md-4 offset-md-4 mt-5" style={{marginTop:'10rem'}}>
+        <div className="spinner col-md-4 offset-md-3" >
             <RingLoader size={150} color='black' loading/>
             <h1>Signing you in...</h1>
         </div>

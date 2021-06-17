@@ -79,7 +79,7 @@ const Login = (props) => {
     }
     return (
         spinnerToggle ? (
-            <div className="container">
+            <div className="container" style={{marginTop:'12rem'}}>
                 <div className="row">
                     <Spinner />
                 </div>
