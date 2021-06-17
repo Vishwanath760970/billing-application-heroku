@@ -6,3 +6,9 @@
   text-transform: uppercase;
 }
 
+
+.spinner{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}

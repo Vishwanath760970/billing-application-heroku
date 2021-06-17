@@ -1,5 +1,4 @@
 import React from 'react'
-import Sales from '../../video/sales.mp4';
 import './Home.css'
 
 const Home = (props) => {
