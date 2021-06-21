@@ -141,11 +141,9 @@ const SideBar=(props)=> {
           {/* <ProtectedRoute path="/products" component={Products} userLoggedIn={userLoggedIn}/>
           <ProtectedRoute path="/customers" component={Customers} userLoggedIn={userLoggedIn}/> */}
             {/* <Route path='*' component={()=><h1>404 NOT FOUND</h1>}/> */}
-            <Route path='*'> <Redirect to="notfound"/></Route>
+            <Route path='*'><Redirect to="/"/></Route>
         </Switch>
     </div>
-
-    
   );
 }
 

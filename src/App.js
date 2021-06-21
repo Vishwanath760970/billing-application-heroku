@@ -21,8 +21,8 @@ const App=(props)=> {
   console.log(userLoggedIn);
   return (
     <Router >
-         
        <SideBar handleAuth={handleAuth} userLoggedIn={userLoggedIn} />
+       {userLoggedIn && <Redirect to="/dashboard"/>}
     </Router>
   );
 }

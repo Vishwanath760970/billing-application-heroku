@@ -83,7 +83,7 @@ const BillItem = (props) => {
                     </ModalFooter>
                 </Modal>
                                    {/*YYYY-MM-DD*/}
-                    <td >{moment(bill.date).format('MMMM Do YYYY')}</td>
+                    <td >{moment(bill.date).format('YYYY-MM-DD')}</td>
                     <td >{findCustomer(bill.customer)}</td> 
                     <td>{bill.total}</td>
                     <td ><button className="mx-2 btn border border-dark view-bill-btn"  onClick={()=>{handleToggle()}}>View Bill</button></td>

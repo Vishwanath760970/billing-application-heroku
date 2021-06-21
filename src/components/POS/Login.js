@@ -22,7 +22,7 @@ const Login = (props) => {
 
 
     const handleHomeRedirect = () => {
-        props.history.push('/dashboard');
+        // props.history.push('/dashboard');
         props.handleAuth();
 
     }
